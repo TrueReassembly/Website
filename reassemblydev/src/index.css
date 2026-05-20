@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+    background-color: #222222;
+    color: #ffffff;
+    height: 100%;
+    font-family: monospace;
+    padding: 20px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+SyntaxHighlighter {
+    white-space: pre-wrap;
+}

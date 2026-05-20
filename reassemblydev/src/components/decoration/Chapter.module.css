@@ -1,0 +1,36 @@
+.chapterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.chapterDivider {
+    width: 80%;
+    height: 2px;
+    background-color: #555555;
+    margin: 20px 0;
+}
+
+.chapterTitle {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #bf2afa;
+}
+
+.chapterContent {
+    width: 80%;
+}
+
+.chapterContent p, li {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #dddddd;
+}
+
+.chapterContent img {
+    display: block;
+    margin: 20px auto;
+}

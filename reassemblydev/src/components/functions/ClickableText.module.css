@@ -1,0 +1,11 @@
+.clickableText {
+    color: #bf2afa;
+    cursor: pointer;
+    font-size: 0.79rem;
+}
+
+.clickableText:hover {
+    color: #d46dfd;
+    font-size: 0.89rem;
+    transition: color 0.3s ease, font-size 0.1s ease;
+}

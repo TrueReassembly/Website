@@ -1,0 +1,11 @@
+.clickableElement {
+    color: #bf2afa;
+    cursor: pointer;
+    size: 0.7rem;
+    transition: color 0.3s ease, size 0.1s ease
+}
+
+.clickableElement:hover {
+    size: 0.8rem;
+    transition: color 0.3s ease, size 0.1s ease;
+}
