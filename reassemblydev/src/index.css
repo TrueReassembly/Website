@@ -4,9 +4,11 @@
 }
 
 .page {
-    background-color: #222222;
+    background: #222222;
+    background: linear-gradient(110deg,rgba(34, 34, 34, 1) 0%, rgba(34, 34, 34, 1) 63%, rgba(62, 2, 79, 1) 100%);
     color: #ffffff;
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
     font-family: monospace;
     padding: 20px;
 }
